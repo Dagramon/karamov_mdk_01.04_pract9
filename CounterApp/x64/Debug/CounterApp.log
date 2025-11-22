@@ -1,0 +1,4 @@
+﻿  CounterApp.cpp
+C:\Users\st310-03\Source\Repos\CounterApp\CounterApp.cpp(7,15): warning C4312: приведение типов: преобразование из "int" в "HANDLE" большего размера
+  LINK : не найден или не выполнена сборка C:\Users\st310-03\Source\Repos\karamov_mdk_01.04_pract9\x64\Debug\CounterApp.exe при последней инкрементной компоновке; выполняется полная компоновка
+  CounterApp.vcxproj -> C:\Users\st310-03\Source\Repos\karamov_mdk_01.04_pract9\x64\Debug\CounterApp.exe

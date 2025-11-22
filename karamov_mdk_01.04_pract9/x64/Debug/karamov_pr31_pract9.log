@@ -1,0 +1,4 @@
+﻿  karamov_pr31_pract9.cpp
+C:\Users\st310-03\Source\Repos\karamov_mdk_01.04_pract9\karamov_pr31_pract9.cpp(91,13): warning C4311: приведение типов: усечение указателя из "HANDLE" в "int"
+C:\Users\st310-03\Source\Repos\karamov_mdk_01.04_pract9\karamov_pr31_pract9.cpp(91,13): warning C4302: приведение типов: усечение из "HANDLE" к "int"
+  karamov_pr31_pract9.vcxproj -> C:\Users\st310-03\Source\Repos\karamov_mdk_01.04_pract9\x64\Debug\karamov_pr31_pract9.exe
