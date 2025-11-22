@@ -147,34 +147,42 @@ int main()
             }
             case 5:
             {
-                TerminateProcess(words[countWORDS-1].hProcess, 0);
-                CloseHandle(words[countWORDS -1].hThread);
-                CloseHandle(words[countWORDS -1].hProcess);
-                countWORDS--;
+                if (TerminateProcess(words[countWORDS - 1].hProcess, 0))
+                {
+                    CloseHandle(words[countWORDS - 1].hThread);
+                    CloseHandle(words[countWORDS - 1].hProcess);
+                    countWORDS--;
+                }
                 break;
             }
             case 6:
             {
-                TerminateProcess(excels[countEXCELS - 1].hProcess, 0);
-                CloseHandle(excels[countEXCELS - 1].hThread);
-                CloseHandle(excels[countEXCELS - 1].hProcess);
-                countEXCELS--;
+                if (TerminateProcess(excels[countEXCELS - 1].hProcess, 0))
+                {
+                    CloseHandle(excels[countEXCELS - 1].hThread);
+                    CloseHandle(excels[countEXCELS - 1].hProcess);
+                    countEXCELS--;
+                }
                 break;
             }
             case 7:
             {
-                TerminateProcess(paints[countPAINTS - 1].hProcess, 0);
-                CloseHandle(paints[countPAINTS - 1].hThread);
-                CloseHandle(paints[countPAINTS - 1].hProcess);
-                countPAINTS--;
+                if (TerminateProcess(paints[countPAINTS - 1].hProcess, 0))
+                {
+                    CloseHandle(paints[countPAINTS - 1].hThread);
+                    CloseHandle(paints[countPAINTS - 1].hProcess);
+                    countPAINTS--;
+                }
                 break;
             }
             case 8:
             {
-                TerminateProcess(notepads[countNOTEPADS - 1].hProcess, 0);
-                CloseHandle(notepads[countNOTEPADS - 1].hThread);
-                CloseHandle(notepads[countNOTEPADS - 1].hProcess);
-                countNOTEPADS--;
+                if (TerminateProcess(notepads[countNOTEPADS - 1].hProcess, 0))
+                {
+                    CloseHandle(notepads[countNOTEPADS - 1].hThread);
+                    CloseHandle(notepads[countNOTEPADS - 1].hProcess);
+                    countNOTEPADS--;
+                }
                 break;
             }
             case 9:
